@@ -1,0 +1,55 @@
+ body {
+      margin:0;
+      padding:0;
+      } 
+
+#header {
+  float:left;
+  width:100%;
+  background:#DAE0D2 url("bg.png") repeat-x bottom;
+  font-size:93%;
+  line-height:normal;
+}
+
+	#header ul {
+    margin:0;
+    padding:9px 9px 0;
+    list-style:none;
+	}
+
+	#header li {
+    float:left;
+   	background:url("norm_left.png") no-repeat left top;
+    margin:0;
+    padding:0 0 0 9px;
+	}
+
+	#header a {
+    display:block;
+    background:url("norm_right.png") no-repeat right top;
+    padding:5px 15px 4px 6px;
+    text-decoration:none;
+    font-weight:bold;
+    background-color:#5ca5cb;
+    color:#464e52;
+	}
+  
+  #header a:hover {
+  	color:black;
+  }
+
+	#header #current {
+		 	 background:url("norm_left_on.png") no-repeat left top;
+		 }
+
+  #header #current a {
+		 	 background:url("norm_right_on.png") no-repeat right top;
+		 	 padding-bottom:5px;
+  		 background-color:#76c3eb;
+  		 color:white;
+		 }
+		 #header #current a:hover {
+		 	color:#e1e5e7;
+		 }
+
+
